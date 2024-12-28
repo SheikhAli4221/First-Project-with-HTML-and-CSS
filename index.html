@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="menu">
+            <a href="#home" onclick="showPage('home')">Home</a>
+            <a href="#products" onclick="showPage('products')">Products</a>
+            <div class="logo">
+                <img src="https://marketplace.canva.com/EAF-P8sD7u4/1/0/1600w/canva-pink-and-red-flat-illustrative-bakery-logo-ClMyAEKNNLk.jpg" alt="Logo">
+                <span>Velvet Crust</span>
+            </div>
+            <a href="#order" onclick="showPage('order')">Order</a>
+            <a href="#about" onclick="showPage('about')">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-images">
+            <div class="image-grid">
+                <img src="https://i.pinimg.com/1200x/bd/87/40/bd8740e3570490feaf3b9e877e361191.jpg" alt="Cake 1">
+                <img src="https://i.pinimg.com/1200x/c6/b8/08/c6b8086b3750bb1caca0be7e11be43c0.jpg" alt="Dessert 1">
+                <img src="https://i.pinimg.com/1200x/50/f1/7c/50f17c380525acf16c5ad8df185b1554.jpg" alt="Coffee">
+                <img src="https://i.pinimg.com/1200x/9b/4d/03/9b4d037c04e5c843b200ec86bdecf9f3.jpg" alt="Cake 2">
+            </div>
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to <span class="highlight">Velvet Crust</span></h1>
+            <p>
+                Like a fantasy that feels unreal, every delicacy by <span class="highlight">Velvet Crust</span> holds a charm that enchants with every bite,
+                allowing one to be swept into a moment of bliss, making all your dessert creams come true!
+            </p>
+            <p>
+                Founded in twin cities in 2024, the philosophy of <span class="highlight">Velvet Crust</span> was simple: to create connections through desserts while
+                striking the ideal balance between flavor and feeling.
+            </p>
+            <p>
+                Since the beginning, <span class="highlight">Velvet Crust</span> has secured an irreplaceable spot in the hearts of people.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://i.pinimg.com/1200x/61/23/c0/6123c03a0d61743053c5d8edf397e0bf.jpg" alt="Quality Icon">
+                    <p>QUALITY BAKING</p>
+                </div>
+                <div class="feature">
+                    <img src="https://i.pinimg.com/1200x/c4/64/e4/c464e41e06dc53325ed2eb314ceec106.jpg" alt="Dessert Icon">
+                    <p>BEST DESSERT IN TOWN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <div id="products" class="page" style="display: none;">
+        <div class="pageH1"><strong>Our Products</strong></div>
+        <h2>Cakes Mania</h2>
+        <section class="products">
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/e0/76/59/e076599d6a3a0a7fd30eba15ccb76e56.jpg" alt="Delicious Cake">
+                <h3>Delicious Chocolaty Cake</h3>
+                <p>$2.99/lbs</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/cd/82/1a/cd821aa58c570f1eab1ecc6d28025041.jpg" alt="Delicious SimpleCake">
+                <h3>Delicious Simple Chocolaty Cake</h3>
+                <p>$2.99/lbs</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/6a/42/f7/6a42f75fe5e1c8bd25c597462bbe24ab.jpg" alt="Delicious Cake">
+                <h3>Special Red Velvet</h3>
+                <p>$3.50/lbs</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/38/be/6a/38be6a3019baa9d34642848c3e73de50.jpg" alt="Delicious Cake">
+                <h3>Special Blue Velvet</h3>
+                <p>$3.50/lbs</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/5f/c9/2a/5fc92a8736a559254b130211452ece5b.jpg" alt="Delicious Cake">
+                <h3>Pink Dragon Fruit Layer Cake</h3>
+                <p>$3.75/lbs</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+        </section>
+
+        <h2><br>Desserts Collection</h2>
+        <section class="products">
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/c6/b8/08/c6b8086b3750bb1caca0be7e11be43c0.jpg" alt="Baileys Chocolate Cheesecake Trifle">
+                <h3>Baileys Chocolate Cheesecake Trifle</h3>
+                <p>$1.99</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/29/b0/21/29b02154b3e966de3f21e8b6cfb097f9.jpg" alt="Strawberry Chocolate Trifle">
+                <h3>Strawberry Chocolate Trifle</h3>
+                <p>$1.99</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/0a/6a/70/0a6a70dce8c80d7f004ae0f0e5d60b0f.jpg" alt="Lemon Meringue Trifle">
+                <h3>Lemon Meringue Trifle</h3>
+                <p>$2.00</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/ce/38/c2/ce38c2e411b038292ac86bdd5cb6b810.jpg" alt="Caramel Crunch Freakshakes">
+                <h3>Caramel Crunch Freakshakes</h3>
+                <p>$2.00</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+        </section>
+
+        <h2><br>Bread Selection</h2>
+        <section class="products">
+            <div class="product-card">
+                <img src="https://i.pinimg.com/1200x/9b/87/24/9b8724dc3f7ba8a2a9674ae633e4064c.jpg" alt="Delicious Bread">
+                <h3>Simple White Bread</h3>
+                <p>$0.99</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i1.wp.com/haveyoueatensf.com/wp-content/uploads/2014/02/bread5.jpeg" alt="Fresh Brown Bread">
+                <h3>Fresh Brown Bread</h3>
+                <p>$1.50</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/2a/5a/33/2a5a33e3132ad2a2d8cf08182734ea39.jpg" alt="Lemon Blueberry Yogurt Loaf">
+                <h3>Lemon Blueberry Yogurt Loaf</h3>
+                <p>$2.00</p>
+                <button onclick="location.href='#order'">Buy Now</button>
+                <button onclick="location.href='#order'">Details</button>
+            </div>
+        </section>        
+    </div>
+
+    <!-- Order Section -->
+    <div id="order" class="page" style="display: none;">
+        <h2>Order Summary</h2>
+        <div class="order-progress">
+            <div>Cart</div>
+            <div>Shipping</div>
+            <div>Payment</div>
+            <div>Confirmation</div>
+        </div>
+        <div class="order-details">
+            <h3>Your Selected Products<br></h3>
+            <ul>
+                <li>
+                    <p>Product Name: Delicious Cake</p>
+                    <p>Price: $25.00</p>
+                </li>
+            </ul>
+            <h3>Shipping Details</h3>
+            <input type="text" placeholder="Enter your address">
+            <h3>Payment Details</h3>
+            <input type="text" placeholder="Card Number">
+            <button>Confirm Order</button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="page" style="display: none;">
+        <div class="aboutPage">
+            <h1>About <span class="highlight">Velvet Crust</span></h1>
+                <p>Welcome to <strong><span class="highlight">Velvet Crust</span></strong>, where every treat is crafted with love, care, and the finest ingredients. Located in the heart of the city, we’ve been serving our community with freshly baked breads, pastries, and cakes since <em>2010</em>.</p>
+
+                <p>Our bakery is more than just a place to buy baked goods—it’s a destination for comfort, joy, and indulgence. Whether you’re looking for a warm loaf of sourdough, a beautifully decorated birthday cake, or a buttery croissant to start your day, we’ve got you covered. From classic recipes to innovative creations, every item at Velvet Crust tells a story of passion and dedication.</p>
+
+                <p>We take pride in the relationships we’ve built with our customers over the years. Velvet Crust is not just a bakery; it’s a hub where neighbors gather, celebrations are made sweeter, and memories are created with every bite. For us, baking is more than a craft—it’s an art form that brings people together.</p>
+
+                <p class="mission">Our mission is simple: to spread happiness, one delicious bite at a time. We believe that every moment deserves a special treat, and we’re here to make it happen for you.</p>
+
+            <h2>What Makes Us Special</h2>
+            <ul>
+                <li>All our products are made fresh daily, using locally sourced ingredients whenever possible.</li>
+                <li>We offer a wide variety of baked goods, including vegan and gluten-free options to cater to everyone’s needs.</li>
+                <li>Our bakers have over 15 years of experience in creating mouthwatering recipes and stunning designs.</li>
+                <li>Every product is crafted with sustainability in mind, from our packaging to our ingredient sourcing.</li>
+                <li>We specialize in custom cakes and desserts that are perfect for weddings, birthdays, anniversaries, and every special occasion.</li>
+            </ul>
+
+            <h2>Why Choose Velvet Crust?</h2>
+            <p>At Velvet Crust, quality is at the heart of everything we do. We go the extra mile to ensure that every bite is a delightful experience. Our commitment to innovation and customer satisfaction drives us to push the boundaries of traditional baking while staying true to our roots. We believe that great baking isn’t just about taste—it’s about creating moments of pure joy and togetherness.</p>
+
+            <p>So, come on in and experience the warmth and charm of Velvet Crust. Whether it’s a simple morning pastry or an elaborate dessert for a grand celebration, we promise to make every visit memorable.</p>
+
+            
+            <h2>Meet the Team</h2>
+            <p>Our team of passionate bakers and decorators works tirelessly to bring your sweetest dreams to life. Here are some of the friendly faces behind Velvet Crust:</p>
+            <div class="team">
+              <div>
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQGOyr_H5yo0xg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729756113810?e=1740614400&v=beta&t=ynxPXK0ZKA1bUx6NpgdCneksXgolEpi-vm-70zG5EkM" alt="Manaal Jawwad, Head Baker">
+                <p><strong>Ali Hassan Raza</strong><br>CEO and Founder</p>
+              </div>
+              <div>
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQEmdgLJOFoNWw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730619223478?e=1740614400&v=beta&t=Ui_EvLIj3X57IAWKsHLL6oGtpXEy6R2pRhU4zqCnQjM" alt="Sarah, Pastry Chef">
+                <p><strong>Manaal Jawwad</strong><br>Head Chef</p>
+              </div>
+              <div>
+                <img src="zaheem.jpeg" alt="Emily, Cake Artist">
+                <p><strong>Zaheem Sajid</strong><br>Pastry Chef</p>
+              </div>
+              <div>
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQEE1OToU2SRTg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730132610781?e=1740614400&v=beta&t=Ce4iDqK5YPzm4-0DJ5J-cpalLtsedDdVbPezPH4o06g" alt="Sarah, Pastry Chef">
+                <p><strong>Masum Abbas</strong><br>Manager</p>
+              </div>
+            </div>
+            
+            <h2>Our Vision</h2>
+            <p>At <span class="highlight">Velvet Crust</span> we aim to be more than just a bakery. We aspire to be a part of your cherished memories—whether it’s a wedding, birthday, or just a cozy afternoon with a cup of coffee and a cookie. Thank you for letting us be part of your life!</p>
+          </div>
+        </div>
+
+    <footer>
+        <div class="contact">
+            <a href="https://wa.me/1234567890" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"> Chat on WhatsApp
+            </a>
+            <a href="https://facebook.com/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"> Visit Facebook Profile
+            </a>
+            <a href="mailto:youremail@gmail.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail"> Send Email
+            </a>
+        </div>
+        <p>&copy; <strong>Velvet Crust</strong>  2024. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.style.display = page.id === pageId ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
